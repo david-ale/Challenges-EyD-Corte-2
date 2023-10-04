@@ -4,6 +4,7 @@ import App from './App.jsx'
 import {FirstApp} from './Challenge01 - FirstApp/FirstApp.jsx'
 import { SecondApp } from './Challenge02 - buttons/SecondApp.jsx'
 import { GifExpertApp } from './Challenge03 - categories/ComponentApp.jsx'
+import { GifGrid } from './Components/./Challenge04 - gifs/GifGrid'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -11,5 +12,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <FirstApp title = 'My First App' />
     <SecondApp/>
     <GifExpertApp/>
+    <GifGrid category={"dogs"}/>
   </React.StrictMode>,
 )
