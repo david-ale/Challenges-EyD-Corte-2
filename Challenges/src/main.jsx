@@ -15,6 +15,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Counter value ={0}/>
     <GifExpertApp/>
     <MultipleCustomHook/>
-    <GifGrid category={"cats"}/>
+    <GifGrid category={"otters"}/>
   </React.StrictMode>,
 )
