@@ -8,6 +8,7 @@ import { GifGrid } from './Components/./Challenge04 - gifs/GifGrid'
 import {Counter} from "./Components/Counter.jsx"
 import {MultipleCustomHook} from "./Components/Challenge07 - breakingbad/MultipleCustomHook"
 import { Father } from './Components/Challenge08 - memo/Father.jsx'
+import {TodoApp} from './Components/Challenge09 - split Todo Component/TodoApp.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -16,7 +17,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Counter value ={0}/>
     <GifExpertApp/>
     <MultipleCustomHook/>
-    <GifGrid category={"otters"}/>
     <Father/>
+    <TodoApp/>
+    <GifGrid category={"otters"}/>
   </React.StrictMode>,
 )
